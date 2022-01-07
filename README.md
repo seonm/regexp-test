@@ -1,5 +1,6 @@
 # 정규표현식 RegExp
 정규식, Regular Expression
+자바스크립트뿐만아니라 다른 프로그래밍언어에서도 사용 가능 but 호환안되는 코드 있음
 
 ## 역할
 - 문자 검색 search
@@ -85,10 +86,6 @@ abcd? | d가 없거나 d와 일치
 (?=) | 앞쪽 일치(Lookahead)| .{1,}(?=@)
 (?<=) | 뒤쪽 일치(Lookbehind)(?<>=@)| .{1,}
 
-
-1. 참고사이트 
-    https://heropy.blog/2018/10/28/regexp/
-
-2.  자바스크립트뿐만아니라 다른 프로그래밍언어에서도 사용 가능
-    but 호환안되는 코드 있음
+## 기타
+참고 https://heropy.blog/2018/10/28/regexp/
 
